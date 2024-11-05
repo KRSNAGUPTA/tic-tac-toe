@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #16425b;
+  text-align: center;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  color: #d9dcd6;
+  font-size: 40px;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4.5vmin;
+}
+.box {
+  color: #16425b;
+  height: 17vmin;
+  width: 17vmin;
+  font-size: 8.5vmin;
+  border: none;
+  border-radius: 15%;
+  background-color:#D9DCD6;
+}
+.box:hover {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  transform: scale(1.2);
+  background-color: #81C3D7;
+}
+
+.winnerMsg{
+  height: 7vh;
+}
+#msg{
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+.hide{
+  display: none;
+}
+#resetBtn {
+  cursor: pointer;
+  width: 5.5rem;
+  height: 2rem;
+  border-radius: 35px;
+  font-size: 15px;
+  border: none;
+}
+#resetBtn:hover {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  transform: scale(1.5);
+}
+#newGameBtn {
+  cursor: pointer;
+  width: 5.5rem;
+  height: 2rem;
+  border-radius: 35px;
+  font-size: 15px;
+  border: none;
+  margin: 14px
+}
+#newGameBtn:hover {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  transform: scale(1.5);
+}
+
